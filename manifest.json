@@ -1,0 +1,35 @@
+{
+  "name": "SmartKasir",
+  "short_name": "SmartKasir",
+  "description": "Aplikasi kasir online web based - Toko Berkah Jaya",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#FF6A00",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-maskable.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Kasir",
+      "url": "./index.html#kasir"
+    },
+    {
+      "name": "Menu Utama",
+      "url": "./index.html#utama"
+    }
+  ]
+}
